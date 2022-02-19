@@ -1,0 +1,11 @@
+spring:
+    application:
+        name: spring-cloud-config-server
+    cloud:
+       config:
+           server:
+               git:
+                 uri: https://github.com/AyoubDev10/envirenement-variable-repos.git
+
+server:
+    port: 8888
